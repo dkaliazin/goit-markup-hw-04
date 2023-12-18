@@ -181,9 +181,17 @@ p {
 .section-landing {
   background: #2e2f42;
   padding: 188px 0;
+  max-width: 1440;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .landing-container {
-  background-image: url(../images/hero-img.jpg);
 }
 .langing-header {
   max-width: 496px;
