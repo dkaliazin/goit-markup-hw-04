@@ -257,6 +257,18 @@ p {
 .spdt-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.spdt-container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.spdt-icon {
+  fill: #2e2f42;
+}
 .spdt-header {
   color: #2e2f42;
   margin-bottom: 8px;
