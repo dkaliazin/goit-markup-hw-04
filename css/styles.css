@@ -270,7 +270,7 @@ p {
   fill: #2e2f42;
 }
 .spdt-header {
-  color: #2e2f42;
+  color: #f4f4fd;
   margin-bottom: 8px;
 }
 .spdt-paragraph {
@@ -296,20 +296,24 @@ p {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  padding-bottom: 32px;
 }
 .team-box {
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .team-list-header {
   color: #2e2f42;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 8px;
+  margin: 0;
+  padding-bottom: 8px;
 }
 .team-list-paragraph {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  margin: 0;
 }
 .team-container-socials {
 }
