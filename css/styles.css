@@ -204,6 +204,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .landing-container {
 }
@@ -337,8 +338,10 @@ p {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-ul-list-link:hover,
-:focus {
+.team-ul-list-link:hover {
+  background-color: #404bbf;
+}
+.team-ul-list-link:focus {
   background-color: #404bbf;
 }
 /*section 4 Portfolio*/
