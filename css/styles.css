@@ -280,6 +280,7 @@ p {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
+
 .team-header {
   color: #2e2f42;
   text-align: center;
@@ -368,17 +369,22 @@ p {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
 }
+.portfolio-list:hover .portfolio-image-paragraph {
+  transform: translatey(0);
+}
 .portfolio-image-container {
   position: relative;
   overflow: hidden;
 }
 .portfolio-image-paragraph {
+  position: absolute;
   top: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
+  margin: 0;
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
