@@ -196,12 +196,11 @@ p {
 .section-landing {
   background: #2e2f42;
   padding: 188px 0;
-  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-img.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -296,11 +295,9 @@ p {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  padding-bottom: 32px;
 }
 .team-box {
-  padding-top: 32px;
-  padding-bottom: 8px;
+  padding: 32px 0;
 }
 .team-list-header {
   color: #2e2f42;
@@ -314,6 +311,7 @@ p {
   line-height: 1.5;
   text-align: center;
   margin: 0;
+  padding-bottom: 8px;
 }
 .team-container-socials {
 }
