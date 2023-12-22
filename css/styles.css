@@ -158,6 +158,7 @@ p {
 .nav-item::after {
   content: "";
   position: absolute;
+  width: 100%;
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -266,6 +267,7 @@ p {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
 }
 .spdt-icon {
   fill: #2e2f42;
@@ -274,6 +276,7 @@ p {
   margin-bottom: 8px;
 }
 .spdt-paragraph {
+  margin: 0;
 }
 /*section 3 Our Team*/
 .section-team {
@@ -407,6 +410,7 @@ p {
 }
 .portfolio-paragraph {
   line-height: 1.5;
+  margin: 0;
 }
 /*footer*/
 .footer {
